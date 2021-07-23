@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+
+  <!-- ---fntaswm--- -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+  <style type="text/css">
+    body{
+      background-color: pink;
+    }
+    .footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+h3{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 80px;
+  font-size: 1.5rem;
+}
+h2{
+  font-size: 1rem;
+  font-weight: 50px;
+}
+.header{
+  min-height: 15%;
+  width: 100%;
+  background-color: #d55f8f;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 100px;
+}
+.logo{
+  max-width: 120px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+}
+.nav-links ul li:hover{
+  background-color: #e3a1b8;
+  transition: 0.6s ease;
+  border-radius: 2px;
+}
+nav .fa{
+  display: none;
+}
+@media (max-width: 700px){
+  .nav-links ul li{
+    display: block;
+   }
+   .nav-links{
+    position: absolute;
+    background: #e3a1b8;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: center;
+    z-index: 2;
+    transition: 1s ease;
+   }
+   nav .fa{
+    display: block;
+    text-align: left;
+    margin: 10px;
+    max-width: 25px;
+    cursor: pointer;
+   }
+   .nav-links ul{
+    padding: 30px;
+   }
+}
+.active{
+  border: 1px solid #000;
+  padding: 8px 12px;
+}
+.smi{
+  max-width: 28px;
+}
+@media (max-width: 700px){
+  .footer h3{
+    font-size: 1.2rem;
+    font-weight: 60rem;
+  }
+  .footer h2{
+    font-size: 0.8rem;
+    font-weight: 30em;
+  }
+}
+  </style>
+
+
+</head>
+<body>
+
+  <!-- ---header--- -->
+
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="logo.png" class="logo"></a>
+      <div class="nav-links" id="navLinks">
+        <img src="cls.png" class="fa" onclick="hideMenu()">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="Portfolio.html" class="active">PORTFOLIO</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <img src="menu.png" class="fa" onclick="showMenu()">
+    </nav>
+
+  </section>
+
+<div class="container">
+ <div class="py-5">
+  <h1 class="text-center display-5"> PORTFOLIO </h1>
+  <hr class="text-center w-25 border-dark">
+ </div>
+ <div class="row no-gutters gallerys">
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="1.jpg">
+    <img src="1.jpg" class="img-fluid">
+   </a>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="5.jpg">
+    <img src="5.jpg" class="img-fluid">
+   </a>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="3.jpg">
+    <img src="3.jpg" class="img-fluid">
+   </a>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="6.jpg">
+    <img src="6.jpg" class="img-fluid">
+   </a>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="7.jpg">
+    <img src="7.jpg" class="img-fluid">
+   </a>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="9.jpg">
+    <img src="9.jpg" class="img-fluid">
+   </a>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="2.jpg">
+    <img src="2.jpg" class="img-fluid">
+   </a>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="8.jpg">
+    <img src="8.jpg" class="img-fluid">
+   </a>
+  </div>
+
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12"> 
+   <a href="10.jpg">
+    <img src="10.jpg" class="img-fluid">
+   </a>
+  </div>
+
+ </div>
+</div>
+
+<!-- ---footer--- -->
+
+<section class="footer">
+  <hr>
+  <h3> BHOPAL | INDORE | NOIDA </h3>
+  <h2>editex@gmail.com | PHONE: +91 9399562558</h2>
+  <br>
+  <a href="https://www.instagram.com/editex__/?hl=en"><img src="ig.png" class="smi"></a>
+  <img src="fb.png" class="smi">
+  <img src="tw.png" class="smi">
+</section>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+  <script>
+   $(document).ready(function(){
+    $('.gallerys').magnificPopup({
+     type: 'image',
+     delegate: 'a',
+     gallery: {
+      enabled : true
+     }
+    });
+   });
+  </script>
+
+  <!-- ------javscriprt for toggle------ -->
+<script>
+  var navLink = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</body>
+</html>
